@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contanier">
+        <div class="login">
+            <img class="logo" src="logo.png" alt="">
+            <h1>Welcome Back!</h1>
+            <form action="">
+
+                <label for="">Email</label>
+                <input type="email" placeholder="Enter Email">
+
+                <label for="">Password</label>
+                <input type="password" placeholder="Enter Password">
+                <button>Login</button>
+            </form>
+
+            <div class="bottom-div">
+                <div class="line-or">
+                    <span>OR</span>
+                </div>
+
+                <div class="btns">
+                    <a href="#" class="btn"><img class="fb" src="facebook.png" alt=""></a>
+                    <a href="#" class="btn"><img class="google" src="google.png" alt=""></a>
+                </div>
+                <p class="signup">Don't have account? <a href="#">Signup Now</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="chatbot-container">
+        <div id="header">
+            <h1>Chatbot</h1>
+        </div>
+        <div id="chatbot">
+            <div id="conversation">
+                <div class="chatbot-message">
+                    <p class="chatbot-text">Hi! I'm Snowbot, your Virual Assistant in Snowden. How can i help you?</p>
+                </div>
+            </div>
+            <form id="input-form">
+                <message-container>
+                    <input id="input-field" type="text" placeholder="Type your message here">
+                    <button id="submit-button" type="submit">
+                        <img class="send-icon" src="send-message.png" alt="">
+                    </button>
+                </message-container>
+
+            </form>
+        </div>
+    </div>
+    <div id="chatIcon">
+        <img src="chat.png" alt="Chat Icon">
+    </div>
+
+    <script src="chatbot.js"></script>
+</body>
+
+</html>
